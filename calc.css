@@ -1,0 +1,99 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    align-content: flex-start; /* Changed from 'first baseline' to 'flex-start' */
+    align-items: center; /* Added align-items property */
+    height: 100%;
+    width: 250px;
+    border: 1px solid black;
+    background-color: rgba(89, 0, 241, 0.14);
+    vertical-align: middle;
+    margin-left:35%;
+   
+}
+
+#id1 {
+    align-self: center;
+    background-color: darkolivegreen;
+    vertical-align: middle;
+    margin-left:10%;
+    font-size: 20px;
+font-weight: 300;
+background-color: #ff9f0e;
+color: white;
+border: none;
+border-radius: 10px;
+width:65%;
+}
+
+h1 {
+    padding-left: 40px;
+}
+#number{
+    align-items:center;
+}
+
+#number > button {
+    background-color: rgb(255, 200, 200);
+    color: rgb(0, 0, 0);
+    border: 2px solid grey;
+    padding: 3px;
+    height: 20px;
+    width: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    align-self: center;
+    vertical-align: middle;
+    align-self: center;
+}
+
+#symbol > button {
+    flex-direction: row;
+    background-color: rgba(0, 118, 253, 0.788);
+    color: beige;
+    border: 2px solid grey;
+    padding: 3px;
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+#symbol > button:nth-child(5n) {
+    
+    width: 80px;
+    background-color: rgba(122, 253, 0, 0.788);
+}
+
+#symbol > button:nth-child(6n) {
+    background-color: rgba(59, 253, 0, 0.788);
+    width: 80px;
+}
+
+#symbol > button:nth-child(7n) {
+    background-color: rgba(255, 0, 0, 0.69);
+    width: 100px;
+}
+
+#symbol > button:last-child {
+    background-color: rgba(245, 6, 6, 0.788);
+    width: 100px;
+}
+
+#symbol>button:active {
+    background: #e5e5e5;
+    box-shadow: inset 0px 0px 5px #676767;
+}
+#number>button:active {
+    background: #e5e5e5;
+    box-shadow: inset 0px 0px 5px #636363;
+}
+#on{
+    background-color: rgba(59, 253, 0, 0.788);
+    width: 80px;
+}
